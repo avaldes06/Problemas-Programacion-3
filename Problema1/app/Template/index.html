@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido</title>
+</head>
+<body>
+<form action="http://localhost:5000/calculadora" method="POST">
+    <p><h1>CALCULADORA DE COMISIONES (ABC).</h1></p>
+    <p><h2>BIENVENIDO</h2></p>
+    <p><strong></strong> Ingrese su nombre.</p>
+    <p><input type="text", name="nom", pattern="[a-z]+[a-z]{2,}$", required ="required"/></p>
+    <p><h2></h2></p>
+    <p><strong></strong> Ingrese el valor de las ventas.</p>
+    <p><input type="text", name="ventas", pattern="[0-9]{3,}$"/></p>
+    <p><input type="submit", name="siguiente", value="siguiente", required ="siguiente"/></p>
+</form>
+</body>
+</html>
+ '''
+    Funcion donde se toman los datos de entradas y se le da la bienvenida al usuario
+
+    '''
